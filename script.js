@@ -49,3 +49,24 @@ forEach(colors, function(color, i) {
     console.log(color.toUpperCase(), ' at index of ', i);
 });
 
+const todos = [
+    {
+        id  : 1,
+        text: 'first task',
+        priority: 'high'
+    },
+    {
+        id  : 2,
+        text: 'second task',
+        priority: 'high'
+    },
+    {
+        id  : 3,
+        text: 'third task',
+        priority: 'high'
+    },
+];
+
+const mytasks = todos.map(function(todo) {
+    return todo.text;
+})
