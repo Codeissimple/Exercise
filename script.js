@@ -16,3 +16,6 @@ let crypto = words.some(function(word){
     return word == 'crypt';
 });
 
+let everyWord = words.every(function(word){
+    return word.length > 3;
+})
