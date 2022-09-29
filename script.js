@@ -8,12 +8,11 @@ const words = [
     'sofa'
 ];
 
-words.some(function(word) {
+let length = words.some(function(word) {
     return word.length > 5;
 });
 
-words.some(function(word){
+let crypto = words.some(function(word){
     return word == 'crypt';
 });
 
-//console.log();
