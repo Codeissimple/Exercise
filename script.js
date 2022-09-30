@@ -9,3 +9,6 @@ scores.find(function(score) {
 scores.find(function(score) {
     return score !== 0 && score % 2 === 0;
 });
+scores.filter(function(score) {
+    return score > 75;
+});
