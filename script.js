@@ -5,3 +5,7 @@ const scores = [
 scores.find(function(score) {
     return score > 75;
 });
+
+scores.find(function(score) {
+    return score !== 0 && score % 2 === 0;
+});
